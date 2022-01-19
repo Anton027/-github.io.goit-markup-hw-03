@@ -1,48 +1,3 @@
-/* ------bgc & outline------ */
-/* h1,
-h2,
-h3 {
-  background-color: rgb(47, 204, 231);
-}
-button {
-  outline: 3px solid greenyellow;
-}
-ul {
-  background-color: violet;
-}
-a {
-  background-color: palegreen;
-}
-p {
-  background-color: steelblue;
-}
-img {
-  outline: 2px solid yellow;
-}
-section {
-  outline: 2px solid red;
-} */
-/* hidden title(
-
-) */
-/* ------bgc & outline------*/
-/* ------- */
-/* .item-benefit::before {
-  content: '';
-  display: block;
-
-  min-height: 120px;
-
-  background: #f5f4fa;
-  background-image: url('../images/svg/clock 1.svg');
-  background-size: contain;
-
-  background-position: center;
-  background-repeat: no-repeat;
-
-  border-radius: 4px;
-} */
-/* замінити змінні кольорів */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -376,10 +331,16 @@ img {
 .clients-title {
   margin-bottom: 50px;
 }
+/* ;
+margin-left:  */
 .clients-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-left: calc(-1 * var(--item-space-gap));
+}
+.clients-item {
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: var(--item-space-gap);
 }
 .clients-link {
   display: flex;
@@ -507,9 +468,9 @@ img {
   margin-top: 12px;
 }
 .join-text {
+  margin-bottom: 20px;
   color: var(--main-light-color);
   text-transform: uppercase;
-  margin-bottom: 20px;
   line-height: 1.14;
   font-weight: 700;
 }
