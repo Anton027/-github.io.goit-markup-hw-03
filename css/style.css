@@ -165,7 +165,6 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
 .header-link {
   color: inherit;
 }
@@ -173,7 +172,6 @@ img {
   margin-right: 10px;
   fill: currentColor;
 }
-
 /* Hero  */
 .hero {
   padding-top: 200px;
@@ -211,7 +209,6 @@ img {
 .hero-btn:focus {
   background-color: var(--hover-btn-color);
 }
-
 /* Benefits */
 .benefits-list {
   display: flex;
@@ -241,7 +238,6 @@ img {
   font-weight: 700;
   line-height: 1.14;
 }
-
 /* Developments */
 .developments {
   padding-bottom: 94px;
